@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after { 
+  box-sizing: border-box;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.cards-item {
+    display: flex;
+    padding: 1rem;
+    @media(min-width: 30rem) {
+      width: 50%;
+    }
+    @media(min-width: 50rem) {
+      width: 33.3333%;
+    }
+}
+  
+.card {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+  
+.card-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
+}
+
+.card-content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+  
+.card-title {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+  
+.card-text {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
