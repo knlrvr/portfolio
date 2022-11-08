@@ -22,7 +22,7 @@ export const Portfolio = () => {
             <li class="cards-item">
               <div class="card">
                 <div class="card-image">
-                  <img src={require('../../images/vault-tec.png')} />
+                  <img src={require('../../images/vault-tec.png')} alt="Vault-Tec"/>
                 </div>
                 <div class="card-content">
                   <div class="card-title">
@@ -30,7 +30,7 @@ export const Portfolio = () => {
                   </div>
                   <p class="card-text">
                   If Vault-Tec was real, existed in 2022, and 
-                  hired me to make a "simple" and "modern" 
+                  hired me to make a "simple", "modern", and "responsive" 
                   website for them. Vault-Tec is a fictional
                   company within the Fallout game series. 
                   </p>
@@ -58,7 +58,7 @@ export const Portfolio = () => {
             <li class="cards-item">
               <div class="card">
                 <div class="card-image">
-                  <img src={require('../../images/ferd.png')} />
+                  <img src={require('../../images/ferd.png')} alt="Ferd"/>
                 </div>
                 <div class="card-content">
                   <div class="card-title">
@@ -92,7 +92,45 @@ export const Portfolio = () => {
             <li class="cards-item">
               <div class="card">
                 <div class="card-image">
-                  <img src={require('../../images/kl.png')} />
+                  <img src={require('../../images/APIYP.png')} alt="APIYP"/>
+                </div>
+                <div class="card-content">
+                  <div class="card-title">
+                    A Peace In Your Pantry
+                  </div>
+                  <p class="card-text">
+                    A responsive website built for a local
+                    business in Winston-Salem. This website is 
+                    strictly informational, but is fully
+                    intended to support ordering online, sharing
+                    relevant news, and showcasing seasonal and 
+                    featured items. 
+                  </p>
+                  <div className="btn-group">
+                    <a href="https://github.com/knlrvr/apiyp">
+                      <div id="button_p" className="ac_btn btn">
+                        View Code
+                        <div className="ring one"></div>
+                        <div className="ring two"></div>
+                        <div className="ring three"></div>
+                      </div>
+                    </a>
+                    <a href="https://knlrvr.github.io/apiyp">
+                      <div id="button_h" className="ac_btn btn">
+                        View Live
+                        <div className="ring one"></div>
+                        <div className="ring two"></div>
+                        <div className="ring three"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="cards-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src={require('../../images/kl.png')} alt="me"/>
                 </div>
                 <div class="card-content">
                   <div class="card-title">
@@ -102,7 +140,7 @@ export const Portfolio = () => {
                     Where you are now!
                   </p>
                   <div className="btn-group">
-                    <a href="https://github.com/knlrvr/Portfolio">
+                    <a href="https://github.com/knlrvr/portfolio">
                       <div id="button_p" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
@@ -110,7 +148,7 @@ export const Portfolio = () => {
                         <div className="ring three"></div>
                       </div>
                     </a>
-                    <a href="https://knlrvr.github.io/Portfolio/">
+                    <a href="https://knlrvr.github.io/portfolio/">
                       <div id="button_h" className="ac_btn btn">
                         View Live
                         <div className="ring one"></div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import * as emailjs from "@emailjs/browser";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col, Alert } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 export const Contact = () => {
   const [formData, setFormdata] = useState({
