@@ -54,7 +54,7 @@ const Headermain = () => {
             <a href="https://linkedin.com/in/kane-lariviere">LinkedIn</a>
             <a href="https://twitter.com/kanelariviere_">Twitter</a>
             </div>
-            <p className="copyright m-0"> &copy; 2022 Kane Lariviere</p>
+            <p className="copyright m-0"> &copy; 2022 Kane Lariviere </p>
           </div>
         </div>
       </header>

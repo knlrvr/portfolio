@@ -22,7 +22,7 @@ export const About = () => {
             <h3 className="color_sec py-2 text-center">Bio</h3>
             <p></p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="6" className="d-flex align-items-center">
             <div>
               <p>
               Hello! My name is <strong>Kane Lariviere</strong>. I'm a web 
@@ -44,10 +44,10 @@ export const About = () => {
             <h3 className="color_sec py-2 text-center">Work</h3>
             <p></p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="6" className="d-flex align-items-center">
             <div>
               <p>
-                Front End Developer, <strong>River &amp; Farm Creative</strong>, <em>2021 - Present</em>
+                Front End Developer, <strong>Freelance</strong>, <em>2021 - Present</em>
               </p>
             </div>
           </Col>
@@ -57,7 +57,7 @@ export const About = () => {
             <h3 className="color_sec py-2 text-center">Education</h3>
             <p></p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="6" className="d-flex align-items-center">
             <div>
               <p>
                 BSc., <strong>Computer Science</strong>, UNC, <em>2025</em>

@@ -16,7 +16,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1578393098337-5594cce112da)' }}></div>
+            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1621975081039-c814938ea869)' }}></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center">
               <div className="intro mx-auto text-center">
@@ -31,19 +31,14 @@ export const Home = () => {
                       ],
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 15,
                     }}
                   />
                 </h1>
-                <p className="mb-1x">
-                  <strong>
-                  View my work or get in touch! 
-                  </strong>
-                </p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -51,7 +46,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      Contact
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

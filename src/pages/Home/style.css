@@ -4,7 +4,7 @@
 }
 
 .btn-portfolio a {
-    color: #000;
+    color: #333;
     text-decoration: none;
 }
 
@@ -15,7 +15,7 @@
     margin-top: -60px;
 }
 
-@media (max-width:991.98px) {
+@media (max-width:992px) {
     .intro_sec {
         display: block;
         height: auto!important;
@@ -68,7 +68,7 @@
 .intro_sec .h_bg-image {
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 600px;
     position: relative;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .ac_btn .one {
-    background-color: #000;
+    background-color: #333;
     transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -3;
 }

@@ -18,17 +18,17 @@ export const Portfolio = () => {
           </Col>
         </Row>
         <section className="portfolio">
-          <ul class="cards">
-            <li class="cards-item">
-              <div class="card">
-                <div class="card-image">
+          <ul className="cards">
+            <li className="cards-item">
+              <div className="card">
+                <div className="card-image">
                   <img src={require('../../images/vault-tec.png')} alt="Vault-Tec"/>
                 </div>
-                <div class="card-content">
-                  <div class="card-title">
+                <div className="card-content">
+                  <div className="card-title">
                     Vault-Tec Industries
                   </div>
-                  <p class="card-text">
+                  <p className="card-text">
                   If Vault-Tec was real, existed in 2022, and 
                   hired me to make a "simple", "modern", and "responsive" 
                   website for them. Vault-Tec is a fictional
@@ -55,16 +55,16 @@ export const Portfolio = () => {
                 </div>
               </div>
             </li>
-            <li class="cards-item">
-              <div class="card">
-                <div class="card-image">
+            <li className="cards-item">
+              <div className="card">
+                <div className="card-image">
                   <img src={require('../../images/ferd.png')} alt="Ferd"/>
                 </div>
-                <div class="card-content">
-                  <div class="card-title">
+                <div className="card-content">
+                  <div className="card-title">
                     Ferd Company
                   </div>
-                  <p class="card-text">
+                  <p className="card-text">
                   A responsive Tesla website clone redone to 
                   represent Ferd (Ford).
                   </p>
@@ -89,16 +89,16 @@ export const Portfolio = () => {
                 </div>
               </div>
             </li>
-            <li class="cards-item">
-              <div class="card">
-                <div class="card-image">
+            <li className="cards-item">
+              <div className="card">
+                <div className="card-image">
                   <img src={require('../../images/APIYP.png')} alt="APIYP"/>
                 </div>
-                <div class="card-content">
-                  <div class="card-title">
+                <div className="card-content">
+                  <div className="card-title">
                     A Peace In Your Pantry
                   </div>
-                  <p class="card-text">
+                  <p className="card-text">
                     A responsive website built for a local
                     business in Winston-Salem. This website is 
                     strictly informational, but is fully
@@ -127,16 +127,16 @@ export const Portfolio = () => {
                 </div>
               </div>
             </li>
-            <li class="cards-item">
-              <div class="card">
-                <div class="card-image">
+            <li className="cards-item">
+              <div className="card">
+                <div className="card-image">
                   <img src={require('../../images/kl.png')} alt="me"/>
                 </div>
-                <div class="card-content">
-                  <div class="card-title">
+                <div className="card-content">
+                  <div className="card-title">
                     My Personal Portfolio
                   </div>
-                  <p class="card-text">
+                  <p className="card-text">
                     Where you are now!
                   </p>
                   <div className="btn-group">

@@ -29,16 +29,16 @@ export const Contact = () => {
     emailjs
       .send(
         "service_9nqlymk",
-        "template_tvod2sl",
+        "template_cbr2ig8",
         templateParams,
-        "9TQIq3J4pFia3mVAq"
+        "FlTinMmd61zIwvS5c"
       )
       .then(
         (result) => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "Message Sent!",
+            alertmessage: "Message Sent! Thank you!",
             variant: "success",
             show: true,
           });
@@ -46,7 +46,7 @@ export const Contact = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!${error.text}`,
+            alertmessage: `Faild to send!,${error.text}`,
             variant: "danger",
             show: true,
           });
