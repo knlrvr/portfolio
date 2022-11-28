@@ -109,7 +109,7 @@ export const Contact = () => {
                 id="message"
                 name="message"
                 placeholder="Message"
-                rows="5"
+                rows="8"
                 value={formData.message}
                 onChange={handleChange}
                 required

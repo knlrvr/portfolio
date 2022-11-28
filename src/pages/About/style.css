@@ -2,32 +2,22 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
-.table td,
-.table th {
-    color: var(--text-color);
-}
-
-.t_border {
-    border-color: var(--text-color) !important;
-}
-
-@-webkit-keyframes animate-positive {
-    0% {
-        width: 0%;
-    }
-}
-
-@keyframes animate-positive {
-    0% {
-        width: 0%;
-    }
-}
-
 .section-title {
     font-size: 45px;
 }
 
-/*! CSS Used keyframes */
+.text-end {
+    margin-right: 3rem;
+}
+
+@media (max-width: 999px) {
+    .text-end {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+    }
+}
 
 @-webkit-keyframes fadeInUp {
     0% {

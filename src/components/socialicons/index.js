@@ -13,7 +13,7 @@ export const Socialicons = (params) => {
     <div className="stick_follow_icon">
       <ul>
         <li>
-          <a href="https://github.com/knlrvr">
+          <a href="https://github.com/knlrvr"> 
             <FaGithub />
           </a>
         </li>

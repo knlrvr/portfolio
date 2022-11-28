@@ -19,14 +19,16 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-2 text-center">Bio</h3>
-            <p></p>
+            <h3 className="color_sec py-2 text-end">Bio</h3>
           </Col>
           <Col lg="6" className="d-flex align-items-center">
             <div>
               <p>
-              Hello! My name is <strong>Kane Lariviere</strong>. I'm a web 
-              developer based in Charlotte, North Carolina. 
+              Hello! My name is <strong>Kane Lariviere</strong>. I'm a
+              software engineer based in Charlotte, North Carolina. 
+              My primary focus is on front end development and design. 
+              However, I do have an understanding of back end, as well
+              as full stack development. 
               <p></p>
               I love to create things. Anything. I love to see things through 
               from concept to deployment, with a fierce passion for each step of
@@ -41,8 +43,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-2 text-center">Work</h3>
-            <p></p>
+            <h3 className="color_sec py-2 text-end">Work</h3>
           </Col>
           <Col lg="6" className="d-flex align-items-center">
             <div>
@@ -54,14 +55,10 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-2 text-center">Education</h3>
-            <p></p>
+            <h3 className="color_sec py-2 text-end">Education</h3>
           </Col>
           <Col lg="6" className="d-flex align-items-center">
             <div>
-              <p>
-                BSc., <strong>Computer Science</strong>, UNC, <em>2025</em>
-              </p>
               <p>
                 AS., <strong>Applications Development</strong>, Gaston College, <em>2022</em>
               </p>
