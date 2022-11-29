@@ -137,7 +137,7 @@ export const Portfolio = () => {
                   Color code and categorizes your tasks based on input.
                   </p>
                   <div className="btn-group">
-                    <a href="https://github.com/knlrvr/REST-Countries">
+                    <a href="https://github.com/knlrvr/to-do">
                       <div id="button_p" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
@@ -145,7 +145,7 @@ export const Portfolio = () => {
                         <div className="ring three"></div>
                       </div>
                     </a>
-                    <a href="https://knlrvr.github.io/REST-Countries/">
+                    <a href="https://knlrvr.github.io/to-do/">
                       <div id="button_h" className="ac_btn btn">
                         View Live
                         <div className="ring one"></div>

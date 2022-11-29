@@ -5,7 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const Contact = () => {
-  const [formData, setFormdata] = useState({
+  const [formData, setFormData] = useState({
     email: "",
     name: "",
     message: "",
@@ -17,7 +17,7 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormData({ loading: true });
 
     const templateParams = {
       from_name: formData.email,
@@ -36,7 +36,7 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setFormdata({
+          setFormData({
             loading: false,
             alertmessage: "Message Sent! Thank you!",
             variant: "success",
@@ -45,7 +45,7 @@ export const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          setFormdata({
+          setFormData({
             alertmessage: `Faild to send!,${error.text}`,
             variant: "danger",
             show: true,
@@ -56,7 +56,7 @@ export const Contact = () => {
   };
 
   const handleChange = (e) => {
-    setFormdata({
+    setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
