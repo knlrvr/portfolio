@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import * as emailjs from "@emailjs/browser";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Alert } from "react-bootstrap";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ export const Contact = () => {
           console.log(result.text);
           setFormData({
             loading: false,
-            alertmessage: "Message Sent! Thank you!",
+            alertmessage: "Sent! Thank you!",
             variant: "success",
             show: true,
           });
@@ -46,7 +46,7 @@ export const Contact = () => {
         (error) => {
           console.log(error.text);
           setFormData({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Faild to send!, ${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -66,9 +66,8 @@ export const Contact = () => {
     <HelmetProvider>
       <Container>
         <Helmet>
-          <meta charSet="utf-8" />
           <title>Contact | Kane Lariviere</title>
-          <meta name="description" content="" />
+          <meta name="description" content="Contact Kane Lariviere" />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="12">
@@ -76,6 +75,18 @@ export const Contact = () => {
           </Col>
         </Row>
         <Row className="sec_sp mx-4">
+        <Col lg="12">
+            <Alert
+              variant={formData.variant}
+              className={`rounded-0 co_alert ${
+                formData.show ? "d-block" : "d-none"
+              }`}
+              onClose={() => setFormData({ show: false })}
+              dismissible
+            >
+              <p className="my-0">{formData.alertmessage}</p>
+            </Alert>
+          </Col>
           <Col lg="12" className="d-flex text-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
