@@ -23,7 +23,7 @@ export const Socialicons = (params) => {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/kanelariviere_">
+          <a href="https://twitter.com/knlrvr">
             <FaTwitter />
           </a>
         </li>
