@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f76ce936.css",
-    "main.js": "/static/js/main.2a0f1cd3.js",
+    "main.css": "/static/css/main.ab5fa060.css",
+    "main.js": "/static/js/main.d643ff01.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/ferd.png": "/static/media/ferd.19a20711f16ddc7c9c8a.png",
+    "static/media/Kane-Lariviere.pdf": "/static/media/Kane-Lariviere.d1d3ebcc01acedffa65c.pdf",
     "static/media/vt.png": "/static/media/vt.eacd5b45dea58f21e56e.png",
     "static/media/todo.png": "/static/media/todo.f2e8af9d2b0b14bc20cb.png",
     "static/media/rest.png": "/static/media/rest.9ac5dd0b093a6ad1cc4a.png",
     "static/media/port.png": "/static/media/port.6727c90e4d110553b9fd.png",
     "index.html": "/index.html",
-    "main.f76ce936.css.map": "/static/css/main.f76ce936.css.map",
-    "main.2a0f1cd3.js.map": "/static/js/main.2a0f1cd3.js.map",
+    "main.ab5fa060.css.map": "/static/css/main.ab5fa060.css.map",
+    "main.d643ff01.js.map": "/static/js/main.d643ff01.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f76ce936.css",
-    "static/js/main.2a0f1cd3.js"
+    "static/css/main.ab5fa060.css",
+    "static/js/main.d643ff01.js"
   ]
 }
