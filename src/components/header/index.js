@@ -52,7 +52,7 @@ const Headermain = () => {
             <div className="d-flex">
             <a href="https://github.com/knlrvr">Github</a>
             <a href="https://linkedin.com/in/kane-lariviere">LinkedIn</a>
-            <a href="https://twitter.com/kanelariviere_">Twitter</a>
+            <a href="https://twitter.com/knlrvr">Twitter</a>
             </div>
             <p className="copyright m-0"> &copy; 2022 Kane Lariviere </p>
           </div>

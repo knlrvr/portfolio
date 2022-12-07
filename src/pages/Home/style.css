@@ -128,6 +128,8 @@
     z-index: -3;
 }
 
+/* 
+
 #button_p {
     background: var(--secondary-color);
     color: var(--primary-color);
@@ -138,7 +140,29 @@
     background-color: var(--primary-color);
 }
 
-#button_h:hover {
+*/
+
+#button_s:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
+
+#button_r {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#button_r a {
+    color: var(--primary-color);
+}
+
+#button_r a:hover {
+    color: var(--secondary-color);
+}
+
+#button_r:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+

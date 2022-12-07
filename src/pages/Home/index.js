@@ -3,6 +3,8 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
+import { FaAngleRight } from "react-icons/fa";
+import resume from "../../documents/Kane-Lariviere.pdf"; 
 
 export const Home = () => {
   return (
@@ -23,7 +25,7 @@ export const Home = () => {
                     options={{
                       strings: [
                         'Software Engineer',
-                        'Web Developer',
+                        'Full Stack Web Developer',
                         'UI & UX Designer',
                         'Artist'
                       ],
@@ -35,7 +37,7 @@ export const Home = () => {
                 </h1>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio">
-                    <div id="button_p" className="ac_btn btn ">
+                    <div id="button_s" className="ac_btn btn ">
                       My Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
@@ -43,13 +45,22 @@ export const Home = () => {
                     </div>
                   </Link> 
                   <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
+                    <div id="button_s" className="ac_btn btn">
                       Contact Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                </div>
+                <div id="button_r" className="ac_btn btn">
+                  <a href={resume} target="_blank" 
+                     rel="noreferrer">
+                      Resume <FaAngleRight />
+                  </a>
+                  <div className="ring one"></div>
+                  <div className="ring two"></div>
+                  <div className="ring three"></div>
                 </div>
               </div>
             </div>

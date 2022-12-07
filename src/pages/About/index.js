@@ -10,7 +10,7 @@ export const About = () => {
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | Kane Lariviere </title>
-          <meta name="description" content="" />
+          <meta name="description" content="About | Kane Lariviere" />
         </Helmet>
         <Row className="mb-5 mt-3 mx-1">
           <Col lg="12">

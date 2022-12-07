@@ -9,8 +9,8 @@ export const Portfolio = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Portfolio | Kane Lariviere </title>{" "}
-          <meta name="description" content="..." />
+          <title> Portfolio | Kane Lariviere </title>
+          <meta name="description" content="Portfolio | Kane Lariviere" />
         </Helmet>
         <Row className="mb-5 mt-3 mx-1">
           <Col lg="12">
@@ -60,7 +60,7 @@ export const Portfolio = () => {
                     React | Redux | Styled Components
                   </p>
                   <p className="card-text">
-                    A responsive Tesla website clone, remade to represent
+                    A Tesla website clone, remade to represent
                     Ferd (Ford).
                   </p>
                   <div className="btn-group">
@@ -133,8 +133,9 @@ export const Portfolio = () => {
                     HTML | CSS | JavaScript
                   </p>
                   <p className="card-text">
-                  A to do app that uses local storage to save your items & name. 
-                  Color code and categorizes your tasks based on input.
+                  A to do app that uses local storage to save your name (user) and
+                  the tasks you add. Color codes and categorizes your tasks based
+                  on input. 
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/to-do">
@@ -172,7 +173,8 @@ export const Portfolio = () => {
                   <p className="card-text">
                     A website for a fictional yet still very nefarious 
                     company, Vault-Tec, which is based in the Fallout 
-                    game series. 
+                    game series. This site is simple and to the point, 
+                    unlike the company it represents. 
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/vault-tec/">

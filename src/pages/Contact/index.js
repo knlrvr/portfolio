@@ -38,7 +38,7 @@ export const Contact = () => {
           console.log(result.text);
           setFormData({
             loading: false,
-            alertmessage: "Sent! Thank you!",
+            alertmessage: "Sent! Thank you! I'll get back to you as soon as I can!",
             variant: "success",
             show: true,
           });
@@ -67,7 +67,7 @@ export const Contact = () => {
       <Container>
         <Helmet>
           <title>Contact | Kane Lariviere</title>
-          <meta name="description" content="Contact Kane Lariviere" />
+          <meta name="description" content="Contact | Kane Lariviere" />
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="12">
