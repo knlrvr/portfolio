@@ -26,13 +26,15 @@ export const About = () => {
               <p>
               Hello! My name is <strong>Kane Lariviere</strong>. I'm a
               software engineer based in Charlotte, North Carolina. 
-              My primary focus is on front end development and design. 
-              However, I do have an understanding of back end, as well
-              as full stack development. 
+              My primary focus is on front end development and design, 
+              but I do have knowledge and experience in back end 
+              and full stack development. 
               <p></p>
-              I love to create things. Anything. I love to see things through 
-              from concept to deployment, with a fierce passion for each step of
-              the process. 
+              I love to create things. Anything. I have a fierce passion
+              for web development, and a deep understanding that design
+              drives <strong>everything</strong>. Because of this, I strongly
+              believe that accessibility and affordability are essential
+              to maintaining the universality of the web. 
               <p></p>
               When I'm not building and designing while slouched over my computer, 
               I love to play video games, make music, and spend time with my

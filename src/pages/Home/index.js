@@ -25,8 +25,8 @@ export const Home = () => {
                     options={{
                       strings: [
                         'Software Engineer',
-                        'Full Stack Web Developer',
-                        'UI & UX Designer',
+                        'Full Stack Developer',
+                        'UI/UX Designer',
                         'Artist'
                       ],
                       autoStart: true,
@@ -38,7 +38,7 @@ export const Home = () => {
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio">
                     <div id="button_s" className="ac_btn btn ">
-                      My Portfolio
+                      Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -46,7 +46,7 @@ export const Home = () => {
                   </Link> 
                   <Link to="/contact">
                     <div id="button_s" className="ac_btn btn">
-                      Contact Me
+                      Contact
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -56,7 +56,7 @@ export const Home = () => {
                 <div id="button_r" className="ac_btn btn">
                   <a href={resume} target="_blank" 
                      rel="noreferrer">
-                      Resume <FaAngleRight />
+                     Resume <FaAngleRight />
                   </a>
                   <div className="ring one"></div>
                   <div className="ring two"></div>

@@ -36,7 +36,7 @@ export const Portfolio = () => {
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/portfolio">
-                      <div id="button_p" className="ac_btn btn">
+                      <div id="button_r" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
                         <div className="ring two"></div>
@@ -65,7 +65,7 @@ export const Portfolio = () => {
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/ferd/">
-                      <div id="button_p" className="ac_btn btn">
+                      <div id="button_r" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
                         <div className="ring two"></div>
@@ -101,7 +101,7 @@ export const Portfolio = () => {
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/REST-Countries">
-                      <div id="button_p" className="ac_btn btn">
+                      <div id="button_r" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
                         <div className="ring two"></div>
@@ -139,7 +139,7 @@ export const Portfolio = () => {
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/to-do">
-                      <div id="button_p" className="ac_btn btn">
+                      <div id="button_r" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
                         <div className="ring two"></div>
@@ -178,7 +178,7 @@ export const Portfolio = () => {
                   </p>
                   <div className="btn-group">
                     <a href="https://github.com/knlrvr/vault-tec/">
-                      <div id="button_p" className="ac_btn btn">
+                      <div id="button_r" className="ac_btn btn">
                         View Code
                         <div className="ring one"></div>
                         <div className="ring two"></div>

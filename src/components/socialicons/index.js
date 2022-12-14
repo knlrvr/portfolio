@@ -5,7 +5,6 @@ import {
   FaTwitter,
   FaLinkedin,
   FaTwitch,
-  FaReddit,
 } from "react-icons/fa";
 
 export const Socialicons = (params) => {
@@ -25,11 +24,6 @@ export const Socialicons = (params) => {
         <li>
           <a href="https://twitter.com/knlrvr">
             <FaTwitter />
-          </a>
-        </li>
-        <li>
-          <a href="https://reddit.com/user/westparksad">
-            <FaReddit />
           </a>
         </li>
         <li>
