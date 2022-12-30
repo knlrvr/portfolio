@@ -29,7 +29,7 @@ export const Portfolio = () => {
                     My Personal Portfolio
                   </div>
                   <p className="card-text-2">
-                    React | React Boostrap | React Icons | Typewriter
+                    React | React Boostrap | Typewriter
                   </p>
                   <p className="card-text">
                     Where you are now!
@@ -38,6 +38,43 @@ export const Portfolio = () => {
                     <a href="https://github.com/knlrvr/portfolio">
                       <div id="button_r" className="ac_btn btn">
                         View Code
+                        <div className="ring one"></div>
+                        <div className="ring two"></div>
+                        <div className="ring three"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="cards-item">
+              <div className="card">
+                <div className="card-image">
+                  <img src={require('../../images/friendfolio.png')} alt="friendfolio"/>
+                </div>
+                <div className="card-content">
+                  <div className="card-title">
+                    Friendfolio
+                  </div>
+                  <p className="card-text-2">
+                    React | Next | Tailwind
+                  </p>
+                  <p className="card-text">
+                    A collection of "posters" for me and my friends, inspired by
+                    an ad for movie posters that I saw on instagram.
+                  </p>
+                  <div className="btn-group">
+                    <a href="https://github.com/knlrvr/friendfolio/">
+                      <div id="button_r" className="ac_btn btn">
+                        View Code
+                        <div className="ring one"></div>
+                        <div className="ring two"></div>
+                        <div className="ring three"></div>
+                      </div>
+                    </a>
+                    <a href="https://friendfolio.vercel.app">
+                      <div id="button_h" className="ac_btn btn">
+                        View Live
                         <div className="ring one"></div>
                         <div className="ring two"></div>
                         <div className="ring three"></div>
@@ -147,45 +184,6 @@ export const Portfolio = () => {
                       </div>
                     </a>
                     <a href="https://knlrvr.github.io/to-do/">
-                      <div id="button_h" className="ac_btn btn">
-                        View Live
-                        <div className="ring one"></div>
-                        <div className="ring two"></div>
-                        <div className="ring three"></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li className="cards-item">
-              <div className="card">
-                <div className="card-image">
-                  <img src={require('../../images/vt.png')} alt="APIYP"/>
-                </div>
-                <div className="card-content">
-                  <div className="card-title">
-                    Vault-Tec Industries
-                  </div>
-                  <p className="card-text-2">
-                    React | Framer Motion | CSS 
-                  </p>
-                  <p className="card-text">
-                    A website for a fictional yet still very nefarious 
-                    company, Vault-Tec, which is based in the Fallout 
-                    game series. This site is simple and to the point, 
-                    unlike the company it represents. 
-                  </p>
-                  <div className="btn-group">
-                    <a href="https://github.com/knlrvr/vault-tec/">
-                      <div id="button_r" className="ac_btn btn">
-                        View Code
-                        <div className="ring one"></div>
-                        <div className="ring two"></div>
-                        <div className="ring three"></div>
-                      </div>
-                    </a>
-                    <a href="https://knlrvr.github.io/vault-tec/">
                       <div id="button_h" className="ac_btn btn">
                         View Live
                         <div className="ring one"></div>
